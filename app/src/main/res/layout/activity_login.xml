@@ -20,7 +20,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:textSize="18dp"
-            android:textColor="#e0821d"/>
+            android:textColor="#1c2d51"/>
 
         <TextView
             android:id="@+id/textView"
@@ -30,7 +30,7 @@
             android:layout_marginTop="8dp"
             android:textSize="20dp"
             android:text="Login:"
-            android:textColor="#e0821d"
+            android:textColor="#1c2d51"
             android:layout_marginLeft="5dp"
             />
 
@@ -50,7 +50,7 @@
             android:textSize="20dp"
             android:text="Senha:"
             android:layout_marginLeft="5dp"
-            android:textColor="#e0821d"
+            android:textColor="#1c2d51"
             />
 
         <EditText
@@ -73,9 +73,11 @@
             android:id="@+id/btnCadastro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="30dp"
             android:text="Cadastro"
             android:background="#f2dec1"
+            android:textSize="28dp"
+            android:padding="5dp"
             />
 
         <Button
@@ -83,7 +85,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:background="#f2dec1"/>
+            android:background="#f2dec1"
+            android:textSize="28dp"
+            android:padding="5dp"/>
 
         </LinearLayout>
     </LinearLayout>

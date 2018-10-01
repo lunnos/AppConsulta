@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcf4e8"
+    tools:context="org.neocities.dolphintech.appconsulta.ListaActivity"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone para contato: (51)31234567."
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textColor="#1c2d51"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Mail: grupoadministracao@nomedaclina.com.br."
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:textColor="#1c2d51"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abaixo você podera ver as consultas já marcadas, se ainda não marcou uma consulta, use o botão MARCAR CONSULTA."
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1c2d51"
+            />
+        <Button
+            android:id="@+id/btnMarcarConsulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marcar Consulta"
+            android:background="#f2dec1"
+            android:textSize="28dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <ListView
+            android:id="@+id/lvConsultas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#1c2d51">
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
