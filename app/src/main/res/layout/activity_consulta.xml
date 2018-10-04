@@ -28,6 +28,25 @@
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
             android:textSize="20dp"
+            android:text="Nome :"
+            android:textColor="#1c2d51"
+            android:layout_marginLeft="12dp"
+            />
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:background="#f9f1e5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
             android:text="Motivo da consulta/sintomas:"
             android:textColor="#1c2d51"
             android:layout_marginLeft="12dp"
@@ -77,8 +96,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/etData"
+            <TextView
+                android:id="@+id/tvData"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"

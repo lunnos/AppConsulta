@@ -1,30 +1,36 @@
 package org.neocities.dolphintech.appconsulta.model;
 
-import java.util.Calendar;
 
 public class Consulta {
 
-    private String id, nome, sintomas, data;
-    private int telefone;
+    private String id, nome, sintomas, data, telefone, idUsuario;
 
-
-
-    @Override
+        @Override
     public String toString() {
         return nome + "\n" + data;
     }
 
+    public String getData() { return data; }
+
+    public void setData(String data) { this.data = data; }
+
     public String getId() {
         return id;
+    }
+
+    public String getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(String idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public void setId(String id) {
         this.id = id;
     }
 
-    public String getNome() {
-        return nome;
-    }
+    public String getNome() { return nome; }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -38,11 +44,11 @@ public class Consulta {
         this.sintomas = sintomas;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 

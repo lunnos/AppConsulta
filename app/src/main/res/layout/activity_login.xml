@@ -35,7 +35,7 @@
             />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/etLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -54,7 +54,7 @@
             />
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/etSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

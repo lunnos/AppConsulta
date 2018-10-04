@@ -35,7 +35,7 @@
             />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/etNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -62,25 +62,25 @@
             android:background="#f9f1e5"
             />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:textSize="20dp"
-            android:text="Telefone:"
-            android:layout_marginLeft="5dp"
-            android:textColor="#1c2d51"
-            />
+        <!--<TextView-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="48dp"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="Telefone:"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:textColor="#1c2d51"-->
+            <!--/>-->
 
-        <EditText
-            android:id="@+id/etTelefone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:inputType="text|number"
-            android:background="#f9f1e5"
-            />
+        <!--<EditText-->
+            <!--android:id="@+id/etTelefone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:inputType="text|number"-->
+            <!--android:background="#f9f1e5"-->
+            <!--/>-->
 
         <TextView
             android:id="@+id/txtSenha"
@@ -130,6 +130,7 @@
             android:layout_marginTop="15dp">
 
             <Button
+                android:id="@+id/btnCancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="15dp"
@@ -138,6 +139,7 @@
                 />
 
             <Button
+                android:id="@+id/btnLimpar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="15dp"
@@ -146,6 +148,7 @@
                 />
 
             <Button
+                android:id="@+id/btnConfirmar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Confirmar"

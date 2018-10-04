@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "586782067841",
+    "firebase_url": "https://appconsulta-a3dba.firebaseio.com",
+    "project_id": "appconsulta-a3dba",
+    "storage_bucket": "appconsulta-a3dba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586782067841:android:f5fb19587167594a",
+        "android_client_info": {
+          "package_name": "org.neocities.dolphintech.appconsulta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586782067841-c6mtfvg4gg755v5pu0sh35hesqdjg3nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPQ_gTU0cuyIgfFKXZqZz58VbLd5A5S18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
