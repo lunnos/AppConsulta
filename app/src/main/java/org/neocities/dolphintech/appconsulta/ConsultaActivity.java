@@ -18,6 +18,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import org.neocities.dolphintech.appconsulta.model.Consulta;
 
+import java.util.Calendar;
+
 public class ConsultaActivity extends AppCompatActivity {
 
     private Button btnData, btnLimparConsulta, btnConfirmarConsulta, btnCancelar;
@@ -80,6 +82,8 @@ public class ConsultaActivity extends AppCompatActivity {
         String usuario = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         if ( ! nome.isEmpty() ){
+
+
             database = FirebaseDatabase.getInstance();
             reference = database.getReference();
 
@@ -100,6 +104,11 @@ public class ConsultaActivity extends AppCompatActivity {
     private void carregarData(){
         AlertDialog.Builder alerta = new  AlertDialog.Builder(this);
         final DatePicker calendario = new DatePicker(this);
+        Calendar hoje = Calendar.getInstance();
+
+        //calendario.setMinDate( hoje.getTime() );
+        calendario.setMinDate(hoje.getTimeInMillis() );
+
         alerta.setView(calendario);
         alerta.setPositiveButton("Selecionar", new DialogInterface.OnClickListener() {
             @Override
